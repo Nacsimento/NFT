@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/nft/static/css/main.8d5dd078.css",
+    "main.js": "/nft/static/js/main.a300eb92.js",
+    "static/js/787.e9454ec8.chunk.js": "/nft/static/js/787.e9454ec8.chunk.js",
+    "static/media/HeroBanner.png": "/nft/static/media/HeroBanner.6e18e9c9d22bdc1b0e8b.png",
+    "static/media/Collection_img.png": "/nft/static/media/Collection_img.1d32d1184840ffe04fb7.png",
+    "static/media/col_3.png": "/nft/static/media/col_3.59be5208fef472c41dfd.png",
+    "static/media/col_2.png": "/nft/static/media/col_2.7bd0706e67f13ac8ac0f.png",
+    "static/media/col_1.png": "/nft/static/media/col_1.bd47b3691c476666f2e6.png",
+    "static/media/Contact_img.png": "/nft/static/media/Contact_img.620426ec2d083a3d19bf.png",
+    "static/media/col_4.png": "/nft/static/media/col_4.646a19b932c662ba6f4c.png",
+    "static/media/slick.svg": "/nft/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/nft/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/nft/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/nft/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/nft/index.html",
+    "main.8d5dd078.css.map": "/nft/static/css/main.8d5dd078.css.map",
+    "main.a300eb92.js.map": "/nft/static/js/main.a300eb92.js.map",
+    "787.e9454ec8.chunk.js.map": "/nft/static/js/787.e9454ec8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d5dd078.css",
+    "static/js/main.a300eb92.js"
+  ]
+}
