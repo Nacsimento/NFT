@@ -1,0 +1,39 @@
+.footer_bg{
+    background-image: linear-gradient(to right , #6F35B9,#2FD6C2);
+}
+
+.footer_container{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px 150px;
+}
+
+.footer_left{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.footer_links{
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.footer_links:hover{
+    color: rgb(177, 255, 255);
+    transform: translateY(-3px);
+}
+
+.footer_right{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+
+}

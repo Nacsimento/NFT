@@ -1,0 +1,118 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 52px 150px;
+    max-width: 1440px ;
+    margin: auto;
+    
+}
+
+
+.nav_logo{
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+}
+
+.nav_logo:hover{
+    transform: translateY(-5px);
+}
+
+.nav_left{
+    display: flex;
+    align-items: center;
+    gap: 92px;
+}
+
+.nav_links{
+    display: flex;
+    gap: 46px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 16px;
+    
+    
+}
+
+.links{
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+}
+
+.links:hover{
+    color: rgb(177, 255, 255);
+    transform: translateY(-3px);
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.Nav_input{
+    width: 283px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+::placeholder{
+    color: #ffffff50;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.nav_search{
+    position: relative;
+}
+
+.Search_icon{
+    position: absolute;
+    right: 21px;
+    top: 10px;
+}
+
+.navbtn{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    transition: all ease-in-out 300ms;
+}
+
+
+.navbtn:hover{
+    color: rgb(216, 216, 216);
+    transform: translateY(-3px);
+
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.dp{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+.username{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}

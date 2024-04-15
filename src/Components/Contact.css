@@ -1,0 +1,84 @@
+.contact_bg{
+    
+    background-image: linear-gradient(to bottom , #FF91F4, #005570);
+}
+
+.contact_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 36px;
+    text-align: center;
+    padding: 50px 150px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.contact_container h1{
+    font-size: 42px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: relative;
+   
+}
+
+.contact_container h1::before{
+    content: '';
+    background-image: url('../Assets/Images/contactline.png');
+    height: 100px;
+    background-repeat: no-repeat;
+    width: 100%;
+    position:absolute;
+    top: 84px;
+    left: 271px;
+    
+}
+
+.contact_container p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 200%;
+    padding: 29px 0px;
+    color: white;
+}
+
+.contact_input{
+    width: 400px;
+    padding: 25px;
+    border-radius: 12px 0px 0px 12px;
+    border: 1px solid rgb(255, 255, 255);
+    
+    background-color: transparent;
+    outline: none;
+    font-size: 24px;
+    color: white;
+}
+
+input.contact_input::placeholder{
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 24px;
+}
+
+.contactbtn{
+    padding: 24px 56px;
+    border-radius: 0px 12px 12px 0px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #00CBCB;
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.contact_form{
+    display: flex;
+    align-items: center;
+}
+
+.contactbtn:hover{
+    background-color: #00b3b3;
+}

@@ -1,0 +1,91 @@
+.slider_bg{
+    background-image: linear-gradient(to bottom , #005570,#FF91F4);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 36px;
+    overflow-x: hidden;
+    padding: 60px 0px;
+   
+}
+
+.slider_container{
+    padding: 20px 150px;
+   
+   
+}
+
+
+
+.slider_containertext{
+    padding: 30px 150px;
+    max-width: 1440px ;
+}
+
+.slider_containertext h1{
+    margin: 0;
+    font-size: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: relative;
+
+    
+}
+
+.slider_containertext h1::before{
+    content: '';
+    background-image: url('../Assets/Images/slideline.png');
+    height: 100px;
+    background-repeat: no-repeat;
+    width: 100%;
+    position:absolute;
+    top: 25px;
+    left: 221px;
+    z-index: 1;
+}
+
+.slider_container p{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 200%;
+    padding: 29px 0px;
+    color: white;
+    margin: 0;
+}
+
+.slide{
+    
+    cursor: pointer;
+}
+
+.slick-dots{
+    bottom: -48px;
+}
+
+.slick-dots li button:before{
+    color: white;
+    opacity: 1;
+    font-size: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #00CBCB;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+    justify-content: center;
+    outline: none;
+}

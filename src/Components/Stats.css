@@ -1,0 +1,28 @@
+.stats_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 60px 150px;
+   
+    max-width: 1440px ;
+    margin: auto;
+    color: white;
+}
+
+.stats_bg{
+    background-image: linear-gradient(to right , #6F35B9 , #2FD6C2);
+}
+.item1 h1{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 56px;
+}
+
+.item1 p{
+    margin: 0px ;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 300 ;
+    font-size: 18px ;
+}
